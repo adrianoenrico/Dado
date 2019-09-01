@@ -42,11 +42,11 @@ else if (randomNumber2 == 5) {
 }
 
 if(randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerText = "🎈 Jogador 1 vence!!"
+    document.querySelector("h1").innerText = "🎈 Jogador 1 vence!!";
 }
 else if (randomNumber1 < randomNumber2) {
-    document.querySelector("h1").innerText = "Jogador 2 vence! 🎈"
+    document.querySelector("h1").innerText = "Jogador 2 vence! 🎈";
 }
 else {
-    document.querySelector("h1").innerText = "Empate, tentem novamente!"
+    document.querySelector("h1").innerText = "Empate, tentem novamente!";
 }
