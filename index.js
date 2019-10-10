@@ -7,8 +7,8 @@ randomNumber2 = Math.random();
 randomNumber2 = 6 * (randomNumber2) + 1;
 randomNumber2 = Math.floor(randomNumber2);
 
-img1Source = "images/dice" + randomNumber1 + ".png";
-img2Source = "images/dice" + randomNumber2 + ".png";
+img1Source = "images/dice" + randomNumber1 + ".svg";
+img2Source = "images/dice" + randomNumber2 + ".svg";
 
 document.querySelector(".img1").setAttribute("src", img1Source);
 document.querySelector(".img2").setAttribute("src", img2Source);
